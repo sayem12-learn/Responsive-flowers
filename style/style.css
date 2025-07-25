@@ -127,6 +127,7 @@ ul li a {
 
 }
 
+
 .card-1 {
     margin-top: 50px;
 
@@ -451,17 +452,16 @@ a {
 
 
   
-.card ,{
+.card{
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 171px;
-    height: 194px;
-    gap: 10px;
-
-
-
+    gap: 20px;
+    padding: 0 100px;
+    
     
 }
+
 
 .badge{
     display: none;
